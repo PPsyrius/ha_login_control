@@ -1,0 +1,12 @@
+{
+    "domain": "ha_login_control",
+    "name": "HA Login Control",
+    "documentation": "https://github.com/PPsyrius/ha_login_control",
+    "requirements": [],
+    "dependencies": [],
+    "codeowners": [
+        "@PPsyrius"
+    ],
+    "version": "2.0.0",
+	"iot_class": "local_push"
+}

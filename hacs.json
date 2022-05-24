@@ -1,5 +1,5 @@
 {
-  "name": "Login Control",
-  "homeassistant": "2022.3.0",
+  "name": "HA Login Control",
+  "homeassistant": "2022.5.0",
   "persistent_directory": "codes"
 }
