@@ -21,18 +21,6 @@ If you want HACS to handle installation and updates, add ha_login_control as a c
 3. Call `clear_refresh_tokens` service with `user_id` parameter with User ID that you retrieved in step 1.
 
 ## Example Code
-- Force Guest Logout at 13:00 (Automation)
-```yaml
-- alias: 'Logout all guests at midnight'
-  trigger:
-    platform: time
-    at: '13:00:00'
-  action:
-    service: ha_login_control.clear_refresh_tokens
-    data:
-      user_id: [GUEST USER ID HERE]
-```
-
 - Force Logout (Manual Button)
 ```yaml
 type: entities
