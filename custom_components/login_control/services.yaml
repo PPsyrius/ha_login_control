@@ -1,0 +1,9 @@
+# Service ID
+clear_refresh_tokens:
+  name: Clear Refresh Token
+  description: Forces selected user to logout
+  fields:
+    user_id:
+      name: User ID
+      description: User ID (String) of the user that should get refresh tokens cleared
+      required: true
