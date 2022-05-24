@@ -28,7 +28,7 @@ If you want HACS to handle installation and updates, add ha_login_control as a c
     platform: time
     at: '13:00:00'
   action:
-    service: token_control.clear_refresh_tokens
+    service: ha_login_control.clear_refresh_tokens
     data:
       user_id: [GUEST USER ID HERE]
 ```
@@ -42,7 +42,7 @@ entities:
     name: Room 160 Force Logout
     tap_action:
       action: call-service
-      service: login_control.clear_refresh_tokens
+      service: ha_login_control.clear_refresh_tokens
       service_data:
         user_id: [GUEST USER ID HERE]
       target: {}
