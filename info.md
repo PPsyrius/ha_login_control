@@ -32,6 +32,7 @@ If you want HACS to handle installation and updates, add ha_login_control as a c
     data:
       user_id: [GUEST USER ID HERE]
 ```
+
 - Force Logout (Manual Button)
 ```yaml
 type: entities
