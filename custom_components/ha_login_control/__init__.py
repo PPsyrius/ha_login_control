@@ -1,6 +1,6 @@
 import logging
 
-DOMAIN = 'login_control'
+DOMAIN = 'ha_login_control'
 
 async def async_setup(hass, config):
     """Async setup is called when the service got called."""
